@@ -36,6 +36,7 @@ MMPEmojiPicker *emojiView = [[MMPEmojiPicker alloc] init];
 [emojiView setDelegate:self];
 [emojiView showEmojiPickerOfType:MMPNature on:self FromRect:sender.frame animated:YES];
 ```
+![ipad](https://github.com/Midhun-MP/MMP_EmojiPicker/blob/master/Images/iPad.png)
 
 #####iPhone
 ```
@@ -43,6 +44,7 @@ MMPEmojiPicker *emojiView = [[MMPEmojiPicker alloc] init];
 [emojiView setDelegate:self];
 [emojiView showEmojiPickerOfType:MMPNature onViewController:self animated:YES];
 ```
+![iPhone](https://github.com/Midhun-MP/MMP_EmojiPicker/blob/master/Images/iPhone.png)
 
 You can combine multiple types like:
 

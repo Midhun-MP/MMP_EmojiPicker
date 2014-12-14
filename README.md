@@ -1,7 +1,7 @@
 MMP_EmojiPicker
 =========
 
-MMP_EmojiPicker is an Emoji Picker for iOS applicaions.
+MMP_EmojiPicker is an Emoji Picker for iOS applications.
 
 - It's an universal library (Works both on iPad and iPhone devices)
 - You can specify the emoji types you want to display
@@ -62,7 +62,8 @@ For getting the selected value back, you need to implement the `MMPEmojiPickerDe
 }
 ```
 
-Contact
+Credits
 -------
 Midhun M P
+
 Email : midhunmp7@gmail.com

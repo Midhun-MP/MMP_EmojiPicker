@@ -62,6 +62,18 @@ For getting the selected value back, you need to implement the `MMPEmojiPickerDe
 }
 ```
 
+### Setting Custom Frame
+
+For setting custom frame for your picker you can use the following method.
+
+```
+/*!
+* Method sets frame for the Emoji Picker
+* @param frame (CGRect) Specifies the size ans position (if applicable) of emoji picker
+*/
+- (void)setEmojiFrame:(CGRect)frame;
+```
+
 Credits
 -------
 Midhun M P

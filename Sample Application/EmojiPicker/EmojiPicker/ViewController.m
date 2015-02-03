@@ -36,6 +36,7 @@
 {
     emojiView = [[MMPEmojiPicker alloc] init];
     [emojiView setDelegate:self];
+    [emojiView setEmojiFrame:CGRectMake(10, 0, 300, 200)];
     
     //[emojiView showEmojiPickerOfType:MMPSymbol | MMPPlace | MMPPeople | MMPObject | MMPNature onViewController:self animated:YES];
     [emojiView showEmojiPickerOfType:MMPNature on:self FromRect:sender.frame animated:YES];

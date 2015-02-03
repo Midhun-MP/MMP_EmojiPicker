@@ -41,6 +41,12 @@
 
 #pragma mark - Methods
 
+/*!
+ * Method sets frame for the Emoji Picker
+ * @param frame (CGRect) Specifies the size of emoji picker
+ */
+- (void)setEmojiFrame:(CGRect)frame;
+
 /**
  * Method shows MMPEmojiPicker with specified emoji groups
  * @param 1 type Any type defined in the MMPEmojiType. You can combine multiple types. If you didn't pass a valid type, It'll use MMPNature by default
